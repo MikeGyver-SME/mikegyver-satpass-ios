@@ -1,0 +1,17 @@
+# Node — never commit dependencies or wrangler state
+worker/node_modules/
+worker/.wrangler/
+.wrangler/
+
+# Xcode
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.ipa
+*.dSYM.zip
+
+# macOS
+.DS_Store
+
+# Env
+.env
